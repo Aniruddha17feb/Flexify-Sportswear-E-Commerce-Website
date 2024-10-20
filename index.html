@@ -1,0 +1,340 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexify | Sportswear</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/Flexify.png" width="125px" alt="logo"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+        <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" style="margin-top: 23px;" alt=""></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>Give Your Workout<br>A New Look!</h1>
+            <p>You were born to be a player. You were meant to be here.<br>This moment is yours.</p>
+             <a href="products.html" class="btn">Explore Now &#8594;</a>     
+        </div>
+        <div class="col-2">
+            <img src="images/image1.png" alt="">
+        </div>
+    </div>
+</div>
+</div>
+
+<!--featured categories-->
+<div class="categories">
+    <div class="small-container">
+    <div class="row">
+        <div class="col-3">
+            <img src="images/tracks.webp" alt="">
+        </div>
+        <div class="col-3">
+            <img src="images/shoes.avif" alt="">
+        </div>
+        <div class="col-3">
+            <img src="images/woman.jpg" alt="">
+        </div>  
+    </div>
+    </div>
+</div>
+
+<!--feautured products-->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <a href="productdetails.html"><img src="images/product-11.png" alt=""></a>
+            <a href="productdetails.html"><h4>Orange Printed T-Shirt</h4></a>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-o"></span>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-21.png" alt="">
+            <h4>Black Duffle Bag</h4>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half-o"></span>
+            </div>
+            <p>$35.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-31.png" alt="">
+            <h4>Blue Joggers Women</h4>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-o"></span>
+            </div>
+            <p>$45.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-41.png" alt="">
+            <h4>Running Shoes</h4>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <p>$60.00</p>
+        </div>
+    </div>
+
+<!-- Latest products -->
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-51.png" alt="">
+            <h4>Grey Blue Sweatshirt</h4>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half-o"></span>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-61.png" alt="">
+            <h4>Shorts For Men</h4>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-o"></span>
+            </div>
+            <p>$30.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-71.png" alt="">
+            <h4>Green Towel</h4>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star-half-o"></span>
+                <span class="fa fa-star-o"></span>
+            </div>
+            <p>$20.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-81.png" alt="">
+            <h4>Jacket For Men</h4>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-0"></span>
+            </div>
+            <p>$70.00</p>
+        </div>
+        </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product-91.png" alt="">
+            <h4>Casual Shoes For Men</h4>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <p>$65.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-101.png" alt="">
+            <h4>Yellow Shorts Women</h4>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half-o"></span>
+            </div>
+            <p>$35.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-111.png" alt="">
+            <h4>Pink T-Shirt Women</h4>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half-o"></span>
+            </div>
+            <p>$45.00</p>
+        </div>
+        <div class="col-4">
+            <img src="images/product-121.png" alt="">
+            <h4>Sports Brassiere</h4>
+            <div class="rating">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-o"></span>
+            </div>
+            <p>$45.00</p>
+        </div>
+    </div>
+</div>
+
+<!--Offer-->
+<div class="offer">
+   <div class="small-container">
+    <div class="row">
+        <div class="col-2">
+            <img src="images/vyvle.png" class="offer-img">
+        </div>
+        <div class="col-2">
+            <p>Exclusively Available On Flexify</p>
+            <h1>Sports Bicycle</h1>
+            <small>
+                Introducing the Flexify Sports Bicycle, where precision meets performance for the ultimate cycling experience! Engineered with cutting-edge technology and lightweight materials, this sleek and aerodynamic two-wheeler is designed to dominate the roads and elevate your riding game. <br> </small>
+            <a href="" class="btn">Buy Now &#8594;</a>
+        </div>
+    </div>
+   </div> 
+</div>
+
+<!--Testimonial section-->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <span class="fa fa-quote-left"></span>
+                <p>Flexify has truly impressed me with their sportswear collection. As a fitness enthusiast, I demand high-performance gear that can keep up with my intense workouts.</p>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="images/satya.jpg" alt="">
+                <h3>Satya Nadella</h3>
+            </div>
+            <div class="col-3">
+                <span class="fa fa-quote-left"></span>
+                <p>Flexify combines style and functionality seamlessly in their sportswear line. I appreciate how they prioritize both performance and aesthetics. </p>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="images/sundar.webp" alt="">
+                <h3>Sundar Picchai</h3>
+            </div>
+            <div class="col-3">
+                <span class="fa fa-quote-left"></span>
+                <p>Flexify has won me over with their exceptional comfort provided. Flexify's commitment to comfort has made them a brand I can rely on for any fitness routine</p>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <img src="images/mukesh.webp" alt="">
+                <h3>Mukesh Ambani</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+           <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download Our App For Android And IOS.</p>
+            <div class="app-logo">
+                <img src="images/playstore.png" alt="">
+                <img src="images/appstore.png" alt="">
+            </div>
+           </div>
+           <div class="footer-col-2">
+            <img src="images/Flexify.png" alt="">
+            <p>Flexify, a sportswear company, aims to empower athletes and fitness enthusiasts with cutting-edge apparel designed for optimum performance, comfort, and style.</p>
+           </div>
+           <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+            </ul>
+           </div>
+           <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>Youtube</li>
+            </ul>
+           </div>
+        </div>
+        <hr>
+        <p class="copyright">© Copyright 2024 | Flexify</p>
+    </div>
+</div>
+
+<!--js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
