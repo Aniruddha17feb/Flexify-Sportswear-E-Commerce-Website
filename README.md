@@ -7,11 +7,8 @@ Flexify is a responsive e-commerce website designed exclusively for sportswear p
 - **Home Page**: Highlights products and special offers with a modern and minimalistic design.
 - **Products Page**: Displays featured and latest products with star ratings and prices.
 - **Account Section**: Users can view and manage their profiles.
-- **Cart Functionality**: Users can view items added to the cart and proceed to checkout (mock functionality).
 - **Responsive Design**: Optimized for mobile, tablet, and desktop devices using flexible CSS and media queries.
 - **Navigation**: Fully functional navigation bar with dropdown menus for easy access to sections.
-- **Testimonial Section**: Includes customer reviews with star ratings to enhance credibility.
-- **Footer**: Features app download links, useful links, and social media icons.
 
 ## Technologies Used
 
